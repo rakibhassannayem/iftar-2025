@@ -13,6 +13,7 @@ function App() {
         <Route path="/details" element={<EventDetails />} />
         <Route path="/register" element={<RegisterPage />} />
       </Routes>
+      <EventDetails/>
       <Footer/>
     </Router>
   )

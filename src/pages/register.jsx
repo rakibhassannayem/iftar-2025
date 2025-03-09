@@ -12,7 +12,7 @@ const RegisterPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="fixed inset-0 bg-gray-900 overflow-y-auto py-12 px-4 sm:px-6 lg:px-8 z-50">
       <div className="max-w-md mx-auto">
         <button
           onClick={() => navigate(-1)}
@@ -75,7 +75,7 @@ const RegisterPage = () => {
                   <label htmlFor="paymentNumber" className="text-white">Send Money to</label>
                   <div className="mt-1 flex items-center space-x-2">
                     <div className="flex-1 p-2 font-semibold text-white">
-                      0171234-5678
+                      01712-345678
                     </div>
                     <button
                       type="button"
