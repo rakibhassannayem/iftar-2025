@@ -14,19 +14,19 @@ const Header = () => {
 
   return (
     <div className="w-full">
-      <section className="relative w-full h-[50vh] sm:h-[60vh] md:h-[70vh]">
+      <section className="relative w-full h-[25vh] sm:h-[30vh] md:h-[35vh] rounded-lg overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={banners[currentImage]}
             alt="Event Banner"
-            className="w-full h-full object-cover opacity-40 transition-opacity duration-1000"
+            className="w-full h-full object-cover transition-opacity duration-1000"
           />
         </div>
       </section>
       
-      <section className="bg-gray-900 text-white py-6 px-4 text-center sm:py-8 md:py-12">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">🎉 Iftar & Nostalgia Reunion</h1>
-        <p className="mt-2 text-base sm:text-lg md:text-xl">Relive memories, reconnect, and enjoy a special evening!</p>
+      <section className="bg-gray-900 text-white py-3 px-4 text-center sm:py-4 md:py-6">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">🎉 Iftar & Nostalgia Reunion</h1>
+        <p className="mt-2 text-sm sm:text-base md:text-lg">Relive memories, reconnect, and enjoy a special evening!</p>
       </section>
     </div>
   )
