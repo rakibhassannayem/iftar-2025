@@ -38,7 +38,7 @@ const RegisterPage = () => {
               />
             </div>
             <div>
-              <label htmlFor="nickName" className="text-white" aria-placeholder='fdjhkdjf'>Nickname in hole group</label>
+              <label htmlFor="nickName" className="text-white" aria-placeholder='fdjhkdjf'>Nickname of the hole group</label>
               <input
                 type="name"
                 id="nickName"
