@@ -13,8 +13,8 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="w-full">
-      <section className="relative w-full h-[25vh] sm:h-[30vh] md:h-[35vh] rounded-lg overflow-hidden">
+    <div className="w-full flex flex-col items-center">
+      <section className="relative w-full max-w-lg h-[25vh] sm:h-[30vh] md:h-[35vh] rounded-lg overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={banners[currentImage]}

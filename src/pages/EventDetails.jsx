@@ -7,7 +7,7 @@ const EventDetails = () => {
     <div className="bg-gray-900 text-white">
       <main className="p-6 text-center">
         {/* <h1 className="text-3xl font-bold">Event Details</h1> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto mt-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-lg mx-auto mt-6">
           <div className="flex items-center gap-4 bg-gray-800 p-6 rounded-lg">
             <img src="/calender.svg" alt="calender" className="w-8 h-8" />
             <p className="text-lg">March 27, 2025</p>
